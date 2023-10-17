@@ -1,0 +1,69 @@
+html {
+  background-color: black;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+}
+section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+}
+
+.new-nav {
+  background-color: black;
+  font-size: x-large;
+  padding: 2px;
+  position: fixed;
+  right: 70vh;
+}
+
+.new-nav a {
+  color: white;
+  font-weight: 200;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Noto Serif", serif;
+}
+
+.new-nav a:hover {
+  color: #d4dde0;
+}
+
+div {
+  display: block;
+  color: white;
+  text-align: center;
+}
+.items {
+  box-sizing: border-box;
+}
+.item.col-sm-3 {
+  background-color: black;
+  padding: 25px 15px;
+  float: left;
+  width: 340px;
+  text-align: center;
+}
+
+.itemic {
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 10px #00152f0d;
+  border: 1px solid #eee;
+}
+.imaj {
+  height: 600px;
+}
+
+#contact-id {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  font-weight: bold;
+}
